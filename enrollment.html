@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Enrollment - Woodland School</title>
+        <link onclick="home()" rel="icon" type="image/png" href="images/Logo.png">
+        
+        <link rel="stylesheet" href="global.css">
+        <script src="nav.js"></script>
+    </head>
+
+    <header>    
+        <input onclick="home()" type="image" src="images/Banner.png" id="logo">
+
+        <div id="navbuttons">
+            <button onclick="home()">Home</button>
+            <button onclick="contact()">Contact Us</button>
+            <button onclick="enrollment()" style="text-decoration:underline; color: #f9665e;">Enrollment</button>
+            <button zeffy-form-link="https://www.zeffy.com/embed/donation-form/c9b415cc-b8f8-40a6-9be0-7d7bdff3a15d?modal=true">Donate</button>
+            <script src=https://zeffy-scripts.s3.ca-central-1.amazonaws.com/embed-form-script.min.js></script>
+        </div>
+
+        <a onclick="btnpress()" id="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+
+    </header>
+
+    <body>
+        <div id="dropdown-box">
+            <button onclick="home()" class="dropite">Home</button>
+            <button onclick="contact()" class="dropite">Contact</button>
+            <button onclick="enrollment()" class="dropite">Enrollment</button>
+            <button onclick="donate()" class="dropite" style="border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" zeffy-form-link="https://www.zeffy.com/embed/donation-form/c9b415cc-b8f8-40a6-9be0-7d7bdff3a15d?modal=true">Donate</button>
+        </div><img src="images/bphoto2.jpg" class="banner">
+
+        <div class="fContainer">
+            <p class="iCard" style="text-align:center;"><b>This page is under construction</b><br> Additional enrollment info is forthcoming</p>
+        </div>
+        
+        <p class="header"><a style="font-size:16px;">------</a> Daily Schedule <a style="font-size:16px;">------</a></p>
+
+        <div class="sPace">
+            <div class="iCard">
+
+                <table>
+                    <tr>
+                        <th>Time</th>
+                        <th>Activities</th>
+                    <tr>
+                      <td>7:30-8:00</td>
+                      <td>Arrival and Transition Activities</td>
+                    </tr>
+                    <tr>
+                      <td>8:00-8:45</td>
+                      <td>Breakfast and Clean-Up </td>
+                    </tr>
+                    <tr>
+                      <td>8:45-9:10</td>
+                      <td>Community Circle and Launch to talk about news, share stories, and learn about the day's activities</td>
+                    </tr>
+                    <tr>
+                      <td>9:10-9:30</td>
+                      <td>Bathroom Break and Transition Activities</td>
+                    </tr>
+                    <tr>
+                        <td>9:30-10:30</td>
+                        <td>Woodland Excursions in 2 age groups (2 ½ to 3 ½ and 3 ½ to 5), Storytime, and Snack (e.g., fruit, vegetables, or crackers/bread and milk/juice)</td>
+                    </tr>
+                    <tr>
+                        <td>10:30-11:00</td>
+                        <td>Woodland Excursions and Discovery Treks, building structures and making outdoor creations, collecting, and recording</td>
+                    </tr>
+                    <tr>
+                        <td>11:00-11:15</td>
+                        <td>Bathroom Break and Transition Activities</td>
+                    </tr>
+                    <tr>
+                        <td>11:15-11:45</td>
+                        <td>Creating Documentation and Narrative Descriptions for observations, outdoor creations, recordings/photos, and/or collected artifacts</td>
+                    </tr>
+                    <tr>
+                        <td>11:45-12:30</td>
+                        <td>Lunch (Outdoors some days, weather permitting)</td>
+                    </tr>
+                    <tr>
+                        <td>12:30-2:00</td>
+                        <td>Nap time/ Quiet time </td>
+                    </tr>
+                    <tr>
+                        <td>2:00-2:15</td>
+                        <td>Wake Up; Bathroom Break; Transition Activities</td>
+                    </tr>
+                    <tr>
+                        <td>2:15-2:45</td>
+                        <td>Snack and Clean-Up</td>
+                    </tr>
+                    <tr>
+                        <td>2:45-3:45</td>
+                        <td>Art Explorations related to Outdoor Experiences (outdoors or indoors)</td>
+                    </tr>
+                    <tr>
+                        <td>3:45-4:30</td>
+                        <td>Free Choice: Engage in Music, Drama, Creative Movement, Storytelling (Dictation) and/or Construction Projects (outdoors or indoors)</td>
+                    </tr>
+                    <tr>
+                        <td>4:30-5:00</td>
+                        <td>Reflection and Closing Circle: Review of Day (actions, achievements, process, and lingering questions) and Teasers or Questions for the Next Day</td>
+                    </tr>
+                    <tr>
+                        <td>5:00-5:30 </td>
+                        <td>Parent Arrival; Transition Activities: Quiet time activities, Exploration of artifacts, and Book browsing</td>
+                    </tr>
+                  </table>
+
+            </div>
+        </div>
+    </body>
+
+    <style>
+        table, td, th {  
+          border: 3px solid #86A384;
+          text-align: left;
+        }
+        
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        th, td {
+          padding: 15px;
+        }
+        .sPace{
+            display:flex; width:50%; margin-left:auto; margin-right:auto;
+        }
+        @media screen and (max-width: 1150px) {
+            .sPace{
+                width:100%
+            }
+        }
+        </style>
+
+    <footer>
+        <div style="display:flex;">
+            <div style="width:100%; text-align: left;">
+                <img src="images/Logo.png" style="height:100px;">
+                <p>Woodland School</p>
+                <p>2478 170th St, Luck, WI 54853 (basement)</p>
+            </div>
+
+            <div style="width:100%; text-align: right;">
+                <img src="images/sLogo.png" style="height:100px;">
+                <p>Site Made By Synthia Technologies</p>
+                <p><a href="http://www.synthia.tech">www.synthia.tech</a></p>
+            </div>
+        </div>
+        <hr style="width:100%; height:3px; background-color: #799fcb; border:none;">
+        <div style="width:100%"><p style="text-align: center;"><span>&copy;</span> 2024 Woodland School</p></div>
+    </footer>
+</html>
