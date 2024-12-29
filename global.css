@@ -246,6 +246,7 @@ summary:hover{
     text-align: center;
     margin-left:auto;
     margin-right:auto;
+    /*For some reason this isnt working*/
 }
 
 /* Media Queries */
